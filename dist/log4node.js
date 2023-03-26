@@ -347,4 +347,4 @@ var index = {
 };
 
 module.exports = index;
-//# sourceMappingURL=logger4node.js.map
+//# sourceMappingURL=log4node.js.map

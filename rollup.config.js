@@ -8,15 +8,15 @@ export default {
   input: 'src/index.ts',
   output: [
     {
-      file: path.resolve(__dirname, 'dist/logger4node.js'),
+      file: path.resolve(__dirname, 'dist/log4node.js'),
       format: 'cjs',
-      name: 'logger4node',
+      name: 'log4node',
       sourcemap: true
     },
     {
-      file: path.resolve(__dirname, 'dist/logger4node.min.js'),
+      file: path.resolve(__dirname, 'dist/log4node.min.js'),
       format: 'cjs',
-      name: 'logger4node',
+      name: 'log4node',
       plugins: [
         terser({
           sourceMap: true,
