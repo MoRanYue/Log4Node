@@ -1,0 +1,42 @@
+{
+  "name": "log4node",
+  "version": "1.0.0",
+  "description": "A simple logger for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --bundleConfigAsCjs -c",
+    "test": "node __test__/print_hello_world.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamisato-Ayaka-233/Log4Node.git"
+  },
+  "keywords": [
+    "logger",
+    "log",
+    "node",
+    "node.js",
+    "package",
+    "tiny"
+  ],
+  "author": "Kamisato-Ayaka-233",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kamisato-Ayaka-233/Log4Node/issues"
+  },
+  "homepage": "https://github.com/Kamisato-Ayaka-233/Log4Node#readme",
+  "dependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/node": "^18.15.10",
+    "rollup": "^3.20.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0"
+  }
+}
